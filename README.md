@@ -26,4 +26,3 @@ You need to implement/adapt (duplicate) the provided sample code for each countr
 Additionally, you need to replace the XX Country Code place holders in the coding with country  code used in your implementation.
 Since the BADI implementation is referring to the tables where the custom messages are stored, the system will display error messages when you implement the BADI, and before you have created the required message class(es).
 You can create a custom message while implementing the validation logic, or use an existing custom message. If you create a new custom message, you must publish the validation logic only after storing this message in the repository.
-Sam
