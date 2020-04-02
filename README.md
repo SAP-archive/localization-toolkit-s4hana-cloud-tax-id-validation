@@ -1,12 +1,14 @@
 ## Localization Toolkit for S4HANA Cloud: TaxID Validation
 
 Description below captures the implementation details required to validate tax numbers and how to do such an extension on the SAP S/4HANA Cloud can be achieved.
+
 Detailed descripion process description can be found in our [blog](https://blogs.sap.com/2019/08/16/validate-a-tax-number/)
 
 Prerequisites
 You have administrative access to SAP S/4HANA Cloud and have implementation experience on the system. Coding experience is also necessary, since this extensibility solution requires implementation of a coding logic.
 
 Authorizations
+
 Business Role	Business Role ID
 Configuration Expert – Business Network Integration	SAP _ BR _ CONF _ EXPERT _ BUS _ NET _ INT
 Master Data Specialist – Business Partner Data	MASTER _ SPECIALIST
