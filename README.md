@@ -8,6 +8,7 @@ Prerequisites
 You have administrative access to SAP S/4HANA Cloud and have implementation experience on the system. Coding experience is also necessary, since this extensibility solution requires implementation of a coding logic.
 
 Authorizations
+
 Business Role	Business Role ID
 Configuration Expert – Business Network Integration	SAP _ BR _ CONF _ EXPERT _ BUS _ NET _ INT
 Master Data Specialist – Business Partner Data	MASTER _ SPECIALIST
