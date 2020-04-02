@@ -1,4 +1,5 @@
-# localization-toolkit-s4hana-cloud-tax-id-validation
+## Localization Toolkit for S4HANA Cloud: TaxId Validation
+
 Description below captures the implementation details required to validate tax numbers and how to do such an extension on the SAP S/4HANA Cloud can be achieved.
 
 Prerequisites
@@ -12,10 +13,6 @@ Master Data Specialist – Business Partner Data	MASTER _ SPECIALIST
 Implementation
 For example, you want to validate the format of the tax identification number (TIN) for a country and display an error message in case of an invalid format. You can do so by implementing a cloud BAdI to validate the tax number.  You will also have to create repository to store custom error messages.
 
-
-
- 
-
 Implement the validation Logic
 Create a New Enhancement Implementation using the Custom Logic option in the Custom Fields and Logic app. 
 Write the implementation logic for tax validation in the Draft Logic area and publish the New Enhancement Implementation.
@@ -26,3 +23,7 @@ You need to implement/adapt (duplicate) the provided sample code for each countr
 Additionally, you need to replace the XX Country Code place holders in the coding with country  code used in your implementation.
 Since the BADI implementation is referring to the tables where the custom messages are stored, the system will display error messages when you implement the BADI, and before you have created the required message class(es).
 You can create a custom message while implementing the validation logic, or use an existing custom message. If you create a new custom message, you must publish the validation logic only after storing this message in the repository.
+
+## License
+Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+This project is licensed under the SAP Sample Code License except as noted otherwise in the [LICENSE](LICENSE) file.
