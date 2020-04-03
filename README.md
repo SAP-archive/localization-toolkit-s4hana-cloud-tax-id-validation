@@ -1,4 +1,4 @@
-## Localization Toolkit for S4HANA Cloud: TaxID Validation
+## Localization Toolkit for S4HANA Cloud: Validating a Tax ID Format
 
 This repository contains the sample code for the [Validate a Tax Number](https://blogs.sap.com/2019/08/16/validate-a-tax-number/) tutorial. 
 
@@ -6,7 +6,7 @@ This repository contains the sample code for the [Validate a Tax Number](https:/
 
 ### Description
 
-Description below captures the implementation details required to validate tax numbers and how to do such an extension on the SAP S/4HANA Cloud can be achieved. This is part of [Localization Toolkit for SAP S/4HANA Cloud](https://community.sap.com/topics/localization-toolkit-s4hana-cloud), set of specific localization tools coupled with general tools and technologies to extend an application. 
+Information provided captures the implementation details required to validate tax numbers and how to do such an extension on the SAP S/4HANA Cloud can be achieved. This is part of [Localization Toolkit for SAP S/4HANA Cloud](https://community.sap.com/topics/localization-toolkit-s4hana-cloud), set of specific localization tools coupled with general tools and technologies to extend an application. 
 
 ### Prerequisites
 You have administrative access to SAP S/4HANA Cloud and have implementation experience on the system. Coding experience is also necessary, since this extensibility solution requires implementation of a coding logic.
@@ -21,12 +21,9 @@ Master Data Specialist – Business Partner Data |	MASTER _ SPECIALIST
 ### Implementation
 For example, you want to validate the format of the tax identification number (TIN) for a country and display an error message in case of an invalid format. You can do so by implementing a cloud BAdI to validate the tax number.  You will also have to create repository to store custom error messages.
 
-Implement the validation Logic
-Create a New Enhancement Implementation using the Custom Logic option in the Custom Fields and Logic app. 
-Write the implementation logic for tax validation in the Draft Logic area and publish the New Enhancement Implementation.
-Note:
+Implement the validation Logic by creating a New Enhancement Implementation, using the Custom Logic option in the Custom Fields and Logic app. Write the implementation logic for tax validation in the Draft Logic area and publish the New Enhancement Implementation.
 
-Enter a solution specific to the purpose of this implementation in the code logic. This is necessary because the BAdI does not have an option to set a filter.
+* Note: Enter a solution specific to the purpose of this implementation in the code logic. This is necessary because the BAdI does not have an option to set a filter.
 You need to implement/adapt (duplicate) the provided sample code for each country, for which, the check is applicable.
 Additionally, you need to replace the XX Country Code place holders in the coding with country  code used in your implementation.
 
