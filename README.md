@@ -1,6 +1,6 @@
 ## Localization Toolkit for SAP S/4HANA Cloud: Validating a Tax ID Format
 
-This repository contains the sample code for the [Validate a Tax Number](https://blogs.sap.com/2019/08/16/validate-a-tax-number/) tutorial. 
+This repository contains the sample code for the [Validate a Tax ID format](https://blogs.sap.com/2019/08/16/validate-a-tax-number/) tutorial. 
 
 *This code is only one part of the tutorial, so please follow the tutorial before attempting to use this code.*
 
