@@ -1,4 +1,4 @@
-## Localization Toolkit for S4HANA Cloud: Validating a Tax ID Format
+## Localization Toolkit for SAP S/4HANA Cloud: Validating a Tax ID Format
 
 This repository contains the sample code for the [Validate a Tax Number](https://blogs.sap.com/2019/08/16/validate-a-tax-number/) tutorial. 
 
@@ -6,7 +6,7 @@ This repository contains the sample code for the [Validate a Tax Number](https:/
 
 ### Description
 
-Information provided captures the implementation details required to validate tax numbers and how to do such an extension on the SAP S/4HANA Cloud can be achieved. This is part of [Localization Toolkit for SAP S/4HANA Cloud](https://community.sap.com/topics/localization-toolkit-s4hana-cloud), set of specific localization tools coupled with general tools and technologies to extend an application. 
+Information provided captures the implementation details required to validate tax numbers and how to do such an extension on the SAP S/4HANA Cloud can be achieved. This extensibility is part of [Localization Toolkit for SAP S/4HANA Cloud](https://community.sap.com/topics/localization-toolkit-s4hana-cloud).
 
 ### Prerequisites
 You have administrative access to SAP S/4HANA Cloud and have implementation experience on the system. Coding experience is also necessary, since this extensibility solution requires implementation of a coding logic.
