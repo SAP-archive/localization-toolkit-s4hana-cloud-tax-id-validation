@@ -34,8 +34,8 @@ You can create a custom message while implementing the validation logic, or use 
 There are currently no known issues.
 
 ## How to obtain support
-If you have issues with this sample, please visit the SAP community page or contact your SAP contact to obtain support. In case you observe any defect in the product usage itself, kindly use the SAP Product support channel and raise an incident adequately for the defects observed.
+If you have issues with this sample, please visit the SAP community page or contact your SAP contact to obtain support. In case you observe any defect in the product usage itself, kindly use the SAP Product support channel and raise an incident adequately for the defects observed. You can also post questions directly to our [community](https://answers.sap.com/questions/ask.html?primaryTagId=9af4d745-1754-4882-b057-f8f904c0a5f8).
 
 ## License
-Copyright (c) 2019 SAP SE or an SAP affiliate company. All rights reserved.
+Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved.
 This project is licensed under the SAP Sample Code License except as noted otherwise in the [LICENSE](LICENSE) file.
