@@ -1,3 +1,5 @@
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/localization-toolkit-s4hana-cloud-tax-id-validation)](https://api.reuse.software/info/github.com/SAP-samples/localization-toolkit-s4hana-cloud-tax-id-validation)
+
 ## Localization Toolkit for SAP S/4HANA Cloud: Validating a Tax ID Format
 
 This repository contains the sample code for the [Validate a Tax ID format](https://blogs.sap.com/2019/08/16/validate-a-tax-number/) tutorial.
@@ -39,5 +41,3 @@ If you have issues with this sample, please visit the SAP community page or cont
 ## License
 Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved.
 This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSE) file.
-
-[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/localization-toolkit-s4hana-cloud-tax-id-validation)](https://api.reuse.software/info/github.com/SAP-samples/localization-toolkit-s4hana-cloud-tax-id-validation)
